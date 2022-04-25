@@ -1,0 +1,22 @@
+{
+  "name": "autenticacaoJWT",
+  "version": "1.0.0",
+  "description": "Api autenticacao com JWT",
+  "main": "index.js",
+  "repository": "https://github.com/LeonardoStanchak/autenticacaoJWT.git",
+  "author": "Leonardo Stanchak",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
